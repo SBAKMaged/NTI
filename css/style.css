@@ -383,6 +383,9 @@ footer div.container {
     #sec-8 div.container form{
         width: 50%;
     }
+    #sec-7 div.container img{
+        width: 60%;
+    }
 
     #icons{
         width: 150px;
@@ -429,6 +432,12 @@ footer div.container {
     #sec-8{
         background-position: 0 -200px;
 
+    }
+    #sec-7 div.container img{
+        width: 80%;
+    }
+    #sec-7 div.container figure{
+        width: 50%;
     }
     #icons{
         width: 230px;
@@ -544,6 +553,9 @@ footer div.container {
     #sec-6 div.container article{
         text-align: left;
         width: 70%;
+    }
+    #sec-7 div.container #secHead{
+        width: 84%;
     }
 }
 
