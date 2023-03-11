@@ -213,7 +213,7 @@ p{
     justify-items: center;
 }
 #sec-7 figcaption div.art{
-    width: 35%;
+    width: 40%;
 }
 #sec-7 figcaption div.art h1{
     font-size: 2.3rem;
@@ -556,6 +556,9 @@ footer div.container {
     }
     #sec-7 div.container #secHead{
         width: 84%;
+    }
+    #sec-7 figcaption div.art{
+        width: 45%;
     }
 }
 
