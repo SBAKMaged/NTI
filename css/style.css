@@ -417,7 +417,7 @@ footer div.container {
         text-align: left;
     }
     #sec-7 div.container figcaption{
-        max-width: 33%
+        max-width: 45%
     }
     #sec-8 div.container form input{
         padding: 10px;
@@ -561,5 +561,9 @@ footer div.container {
     #sec-7 figcaption div.art{
         width: 45%;
     }
+    #sec-7 div.container figcaption{
+        width: 45%;
+    }
+    
 }
 
