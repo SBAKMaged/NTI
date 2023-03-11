@@ -1,0 +1,548 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 16px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+.container {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+p{
+    color: white;
+}
+#sec-1{
+    height: 190px;
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: -40px;
+    background-repeat: no-repeat;
+}
+#sec-1 article{
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 10px;
+    text-align: center;
+}
+#sec-1 small{
+    font-weight: bold;
+    font-size: 0.7rem;
+}
+#sec-1 h1{
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+#sec-1 article h2{
+    font-weight: bold;
+    font-size: 1.7rem;
+    color: #CD8383;
+}
+#sec-1 article button{
+    font-weight: bold;
+    font-size: 0.5rem;
+    height: 23px;
+    width: 60px;
+    padding: 5px;
+    border-radius: 10px;
+    border-color: transparent;
+}
+#sec-2{
+    background-color: black;
+    text-align: center;
+}
+#sec-2 article{
+    padding: 10px 0px 30px 80px;
+    text-align: justify;
+    width: 85%;
+
+}
+#sec-2 h3{
+    color: #FAC769;
+    padding-bottom: 20px;
+}
+#sec-3{
+    background-color: #FFC801;
+    height: 80px;
+    text-align: center;
+}
+#sec-3 p{
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+#sec-4 div.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#sec-4 div.container figure img{
+   max-width: 380px;
+   display: block;
+   margin: auto auto;
+}
+#sec-4 div.container figure{
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+}
+#sec-4 span{
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    width: 70px;
+    height: 35px;
+    padding: 4px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    background-color: rgba(109, 96, 83, 0.60);
+}
+#sec-4 em{
+    padding: 20px 0 20px 0;
+    display: inline-block;
+    font-size: 1.5rem;
+}
+#sec-4 figcaption{
+    background-color: #000000;
+    width: 380px;
+    margin: auto auto;
+    padding: 10px;
+}
+#sec-4 figcaption h4{
+    color: #FFDC00 ;
+}
+
+#sec-5{
+    background-color: #000000;
+    padding-bottom: 70px;
+}
+#sec-5 div.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: center;
+}
+#sec-5 small{
+    margin-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    color: #FFC702;
+    font-size: 1.5rem;
+}
+#sec-5 div.container img{
+    max-width: 280px;
+    padding-bottom: 20px;
+}
+#sec-6{
+    padding-top: 30px;
+    background-color:#FECD05;
+    padding-bottom: 30px;
+}
+#sec-6 div.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    
+}
+#sec-6 div.container article{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 10px;
+}
+#sec-6 div.container button{
+
+    border: transparent;
+    border-radius: 20px;
+    width: 80px;
+    height: 40px;
+
+}
+#sec-6 small{
+    display: inline-block;
+    color: white;
+    margin-bottom: 10px;
+}
+#sec-6 h1{
+    display: inline-block;
+    font-size: 1.8rem;
+    color: white;
+}
+#sec-7{
+    padding: 30px 0 70px 0  ;
+    background-color: #000000;
+
+}
+#sec-7 div.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+}
+#sec-7 div.container #secHead{
+    width: 85%;
+}
+#sec-7 div.container figure img{
+    max-width : 410px;
+}
+#sec-7 div.container figure {
+    width: 500px;
+}
+
+#sec-7 h1{
+    padding: 5px 0 10px 0;
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+#sec-7 p{
+    padding: 5px 0 10px 0;
+    padding: 20px 5px 20px 5px;
+}
+#sec-7 figcaption{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: center;
+}
+#sec-7 figcaption div.art{
+    width: 35%;
+}
+#sec-7 figcaption div.art h1{
+    font-size: 2.3rem;
+    padding-bottom: 15px;
+}
+#sec-8 {
+    background:
+    linear-gradient(to bottom , rgba(91, 127, 140, 0.5) , rgba(91, 127, 140, 0.5)),
+    url(../images/contactus.jpg) no-repeat;
+    background-size: cover;
+    background-position: 0 0px;
+}
+#sec-8 div.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 450px;
+    padding-top: 50px;
+}
+#sec-8 h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:#FFC702;
+    padding-bottom: 5px;
+}
+#sec-8 div.container article{
+    width: 100%;
+}
+
+#sec-8 div.container form{
+    width: 100%;
+    height: 230px;
+    padding-top: 20px;
+    border: 1px solid #FDBB01;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px #FECD05;
+}
+#sec-8 div.container form input{
+    width: 90%;
+    padding: 8px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+#sec-8 div.container form button{
+    height: 40px;
+    width: 90%;
+    margin: 5px;
+    background-color: #FFBC00;
+    border-color: transparent;
+}
+#spce{
+    width: 100%;
+    background: #FDCF05;
+    height: 10px;
+    border-top: 2px solid white;
+}
+footer{
+    background-color: #000000;
+}
+footer div.container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .footer-col {
+    width: 50%;
+  }
+  
+  .footer-col h3 {
+    margin-top: 0;
+  }
+  
+  .footer-col ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-col li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+ .footer-col a{
+    text-decoration: none;
+    color: white;
+ }  
+ .footer-col ul img{
+    max-width: 50px;
+    padding-left: 10px;
+ }
+  #icons{
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+ footer div.footer-col #email{
+    width: 100px;
+    height: 50px;
+    background-color: #000000;
+    border-top: transparent; border-left: transparent; border-right: transparent;
+    border-bottom: 2px solid white;
+ }
+ footer div.footer-col button{
+    height: 45px;
+    width: 100px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: white;
+    border-color: transparent;
+ }
+ footer div.footer-col i{
+    color: white; padding-right: 10px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+	.container {
+		width: 520px;
+
+	}
+    #sec-1{
+        background-size: cover;
+        background-position-y: -30px;
+
+    }
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	.container {
+
+		width: 710px;
+	}
+    #sec-1{
+        background-size: cover;
+        background-position-y: -40px;
+        height: 380px;
+    }
+    #sec-1 article{
+        width: 60%;
+        padding-top: 100px;
+        padding-left: 60px;
+    }
+    #sec-4 em{
+        width: 100%;
+        padding-left: 100px;
+        display: inline-block;
+        font-size: 1.5rem;
+    }
+    #sec-8 div.container form{
+        width: 50%;
+    }
+
+    #icons{
+        width: 150px;
+     }
+     .footer-col {
+        width: 25%;
+      }
+      footer div.footer-col #email{
+        width: 150px;
+     }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.container {
+
+		width: 930px;
+	}
+    #sec-1{
+        background-position-y: -80px;
+        background-size: cover;
+        height: 450px;
+    }
+    #sec-1 article{
+        padding-left: 80px;
+    }
+    #sec-7 div.container #secHead{
+        width: 95%;
+        text-align: left;
+    }
+    #sec-7 div.container figcaption{
+        max-width: 33%
+    }
+    #sec-8 div.container form input{
+        padding: 10px;
+        margin: 10px;
+        width: 250px;
+    }
+    #sec-8 div.container form {
+        height: 270px;
+    }
+    #sec-8 div.container form button{
+        width: 250px;
+    }
+    #sec-8{
+        background-position: 0 -200px;
+
+    }
+    #icons{
+        width: 230px;
+     }
+     footer div.footer-col #email{
+        width: 230px;
+     }
+     #sec-8 div.container article{
+        width: 50%;
+    }
+    #sec-8 div.container form{
+        width: 35%
+    }
+    #sec-8{
+        height: 350px;
+    }
+
+	
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+	.container {
+		width: 1140px;
+    }
+    #sec-1{
+        background-position-y: -100px;
+        background-size: cover;
+        height: 530px;
+    }
+    #sec-1 article{
+        width: 80%;
+        padding-top: 200px;
+        padding-left: 120px;
+    }
+    #sec-8 div.container form {
+        width: 300px;
+    }
+    #sec-8{
+        background-position: 0 -250px;
+
+    }
+    #sec-1 article{
+        width: 80%;
+        padding-top: 20%;
+        text-align: left;
+    }
+    #sec-6 div.container article{
+        text-align: left;
+        width: 70%;
+    }
+    #sec-5 div.container img{
+        padding-left: 10px;
+        margin-left: 5px;
+    }
+
+}
+
+@media (min-width: 1400px) {  
+	.container {
+		width: 1340px;
+        
+	}
+    #sec-1{
+        background-position-y: -100px;
+        height: 650px;
+        background-size: cover;
+    }
+    #sec-1 article{
+        padding-left: 120px;
+        font-size: larger;
+    }
+    #sec-1 article button{
+        font-weight: bold;
+        font-size: 0.6rem;
+        height: 30px;
+        width: 70px;
+        padding: 7px;
+        border-radius: 12px;
+        margin-top: 10px;
+    }
+    #sec-7 div.container figure{
+        padding-left: 60px;
+    }
+    #sec-7 div.container #secHead{
+        width: 77%;
+    }
+    #sec-8 article{
+        padding-top: 50px;
+    }
+    #sec-8{
+        height: 340px;
+        background-position: 0 -300px;
+    }
+    #sec-8 div.container article{
+        width: 45%;
+    }
+    #icons{
+        width:300px;
+     }
+     footer div.footer-col #email{
+        width: 300px;
+     }
+     footer div.footer-col button{
+        margin-top: 30px;
+        border-radius: 20px;
+
+     }
+     #sec-1 article{
+        width: 80%;
+        padding-top: 20%;
+        text-align: left;
+    }
+    #sec-6 div.container article{
+        text-align: left;
+        width: 70%;
+    }
+}
+
