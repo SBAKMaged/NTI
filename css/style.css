@@ -8,8 +8,9 @@ html {
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 }
 .container {
-	margin-left: 15px;
-	margin-right: 15px;
+    margin: 0 auto;
+    padding: 10px;
+    
 }
 p{
     color: white;
