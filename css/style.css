@@ -15,6 +15,80 @@ html {
 p{
     color: white;
 }
+#mainMenu {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background-color: #000;
+}
+
+#mainMenu h2 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.1rem;
+}
+
+#mainMenu h2 span {
+	color: #fed63c;
+	font-size: 1.4rem;
+}
+#mainMenu img {
+	width: 30px;
+	height: 30px;
+}
+#mainMenu logo {
+	width: 200px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#mainMenu div.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 10px 0;
+}
+
+#mainMenu nav {
+	width: 100%;
+	padding-top: 30px;
+}
+
+#mainMenu label {
+	color: #fff;
+	border: thin solid #fff;
+	padding: 0 5px 2px;
+	border-radius: 3px;
+}
+
+
+#mainMenu a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	padding: 15px;
+	display: block;
+	text-align: center;
+}
+
+#mainMenu a:hover {
+	background-color: #365374;
+}
+
+#menuBtn {
+	display: none;
+}
+
+#menuBtn+nav {
+	display: none;
+}
+
+#menuBtn:checked+nav {
+	display: block;
+}
 #sec-1{
     height: 190px;
     background: url(../images/banner.jpg);
@@ -416,6 +490,31 @@ footer div.container {
 
 		width: 930px;
 	}
+    #mainMenu div.container {
+		flex-wrap: nowrap;
+		padding: 0;
+	}
+	
+	#menuBtn+nav, #menuBtn:checked+nav{
+		display: flex;
+		width: auto;
+		padding-top: 0;
+		background-color: transparent;
+	}
+	
+	#mainMenu label {
+		display: none;
+	}
+	
+	#mainMenu a{
+		border-bottom: 5px solid transparent;
+		padding-left: 35px;
+		padding-right: 35px;
+		transition: 0.8s all ease;
+	}
+	#mainMenu a:hover{
+		border-bottom-color: #ff9408;
+	}
     #sec-1{
         background-position-y: -80px;
         background-size: cover;
@@ -503,6 +602,22 @@ footer div.container {
     }
     #sec-8 div.container form {
         width: 300px;
+    }
+    #sec-1 small{
+        font-size: 1.1rem;
+    }
+    #sec-1 h1{
+        font-size: 2.5rem;
+    }
+    #sec-1 article h2{
+        font-size: 2.3rem;
+    }
+    #sec-1 div.container button{
+        font-weight: bold;
+        font-size: 0.8rem;
+        margin-top: 10px;
+        height: 40px;
+        width: 90px;
     }
     #sec-8{
         background-position: 0 -250px;
