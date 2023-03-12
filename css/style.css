@@ -538,6 +538,12 @@ footer div.container {
         padding-left: 120px;
         font-size: larger;
     }
+    #sec-2 article h3{
+        margin-top: 15px;
+    }
+    #sec-2 article p{
+        margin-bottom: 15px;
+    }
     #sec-1 article button{
         font-weight: bold;
         font-size: 0.6rem;
