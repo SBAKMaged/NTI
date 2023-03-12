@@ -51,12 +51,16 @@ p{
     border-radius: 10px;
     border-color: transparent;
 }
+#sec-1 div.container button:hover{
+	color: #fff;
+	background: #000;
+}
 #sec-2{
     background-color: black;
     text-align: center;
 }
 #sec-2 article{
-    padding: 10px 0px 30px 80px;
+    margin-left: 20px;
     text-align: justify;
     width: 85%;
 
@@ -166,6 +170,10 @@ p{
     height: 40px;
 
 }
+#sec-6 div.container button:hover{
+    color: #fff;
+	background: #ffbc00;
+}
 #sec-6 small{
     display: inline-block;
     color: white;
@@ -252,6 +260,10 @@ p{
     border-radius: 10px;
     text-align: center;
     box-shadow: 0px 0px 10px 0px #FECD05;
+}
+#sec-8 div.container form button:hover {
+	color: #fff;
+	background: #000;
 }
 #sec-8 div.container form input{
     width: 90%;
@@ -454,6 +466,22 @@ footer div.container {
     }
     #sec-8{
         height: 350px;
+    }
+    #sec-1 small{
+        font-size: 0.9rem;
+    }
+    #sec-1 h1{
+        font-size: 2rem;
+    }
+    #sec-1 article h2{
+        font-size: 1.9rem;
+    }
+    #sec-1 article button{
+        font-weight: bold;
+        font-size: 0.75rem;
+        margin-top: 10px;
+        height: 30px;
+        width: 80px;
     }
 
 	
